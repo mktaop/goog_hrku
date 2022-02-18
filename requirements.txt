@@ -1,1 +1,1 @@
-tensorflowstreamlitscikit-learnpandasnumpy
+tensorflowscikit-learnpandasnumpy
