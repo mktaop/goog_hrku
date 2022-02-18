@@ -8,12 +8,12 @@ Created on Fri Feb 18 15:45:08 2022
 #pip install flask
 from flask import Flask,render_template,request
 import numpy as np
-import keras
-import tensorflow 
+#import keras
+#import tensorflow 
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
 
-model=keras.models.load_model('/Users/avi_patel/Downloads/googlstm.h5')
+model=load_model('/Users/avi_patel/Downloads/googlstm.h5')
  
 app = Flask(__name__)
  

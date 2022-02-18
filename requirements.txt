@@ -1,1 +1,7 @@
-tensorflowscikit-learnpandasnumpy
+scikit-learn
+keras
+pandas
+numpy
+h5py
+keras-preprocessing
+
