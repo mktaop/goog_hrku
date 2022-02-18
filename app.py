@@ -17,7 +17,8 @@ model=load_model('/Users/avi_patel/Downloads/googlstm.h5')
  
 app = Flask(__name__)
  
-@app.route('/',methods=['POST','GET'])
+#@app.route('/',methods=['POST','GET'])
+@app.route('/')
 def new():
     return render_template('new.html')
  
